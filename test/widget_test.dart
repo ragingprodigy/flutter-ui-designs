@@ -8,7 +8,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_ui_designs/app.dart';
 
 void main() {
-  testWidgets('Ensure that the CurvedHome widget shows on the screen', (WidgetTester tester) async {
+  testWidgets('Ensure that the CurvedHomePage widget shows on the screen', (WidgetTester tester) async {
     // Build our app and trigger a frame.
     await tester.pumpWidget(new UIApp());
 
